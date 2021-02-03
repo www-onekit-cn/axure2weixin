@@ -1,0 +1,6 @@
+<view
+  id="{{onekitId}}"
+  class="ax_default onekit-box_2 {{onekitClass}}" 
+  style="{{onekitStyle}}">
+  <slot/>
+</view>
