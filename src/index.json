@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+    "body": "./ui/body/body",
     "box_1": "./ui/box_1/box_1",
     "box_2": "./ui/box_2/box_2",
     "box_3": "./ui/box_3/box_3"
