@@ -6,8 +6,7 @@ import axure_behavior from '../../behavior/axure_behavior'
 Component({
   behaviors: [onekit_behavior, axure_behavior],
   options: {
-    virtualHost: true
+    virtualHost: false
   },
-  properties: {
-  }
+  properties: {}
 })

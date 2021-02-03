@@ -1,0 +1,25 @@
+#u0{
+	padding-top: 10rpx;
+	color: #0000ff;
+	font-weight: 700;
+	text-decoration: underline;
+	padding-left: 5rpx;
+	letter-spacing: 53rpx;
+	padding-bottom: 20rpx;
+	font-size: 51rpx;
+	line-height: 52rpx;
+	border-color: #d9001b;
+	border-radius: 50rpx;
+	transform: rotate(203deg);
+	text-shadow: 5.0rpx 6.0rpx 2.0rpx #00ffff;
+	top: 202rpx;
+	left: 201rpx;
+	background: #ffff00;
+	width: 204rpx !important;
+	border-width: 4rpx;
+	border-style: dashed;
+	opacity: 0.55;
+	padding-right: 15rpx;
+	height: 205rpx;
+
+}

@@ -82,96 +82,22 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-
-module.exports = Behavior({
-
-  properties: {
-    onekitStyle: {
-      type: String,
-      value: ''
-    },
-    onekitClass: {
-      type: String,
-      value: ''
-    },
-    width: {
-      // eslint-disable-next-line no-bitwise
-      type: String | Number,
-      value: null,
-      observer: function observer(width) {
-        this.setData({
-          widthStyle: width ? width + 'rpx' : 'auto'
-        });
-      }
-    },
-    height: {
-      // eslint-disable-next-line no-bitwise
-      type: String | Number,
-      value: null,
-      observer: function observer(height) {
-        this.setData({
-          heightStyle: height ? height + 'rpx' : 'auto'
-        });
-      }
-    }
-  }
-
-});
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/* eslint-disable no-console */
-/* eslint-disable camelcase */
-module.exports = Behavior({
-  methods: {
-    ui_tap: function ui_tap() {
-      this.triggerEvent('Tap');
-    }
-  }
-});
-
-/***/ }),
-/* 2 */,
-/* 3 */,
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _onekit_behavior = __webpack_require__(0);
-
-var _onekit_behavior2 = _interopRequireDefault(_onekit_behavior);
-
-var _axure_behavior = __webpack_require__(1);
-
-var _axure_behavior2 = _interopRequireDefault(_axure_behavior);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /* eslint-disable camelcase */
-
 Component({
-  behaviors: [_onekit_behavior2.default, _axure_behavior2.default],
-  options: {
-    virtualHost: false
-  },
   properties: {}
 });
 
 /***/ })
-/******/ ]);
+
+/******/ });
